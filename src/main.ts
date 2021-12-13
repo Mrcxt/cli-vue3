@@ -4,6 +4,7 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 //
+import "normalize.css";
 import "@/style/root.scss";
 import "@/style/reset.scss";
 

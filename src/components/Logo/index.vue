@@ -1,12 +1,19 @@
 <template>
-  <div class="home">home</div>
+  <div class="logo">logo</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "Home",
-  components: {},
+  setup() {
+    return {};
+  },
 });
 </script>
+
+<style lang="scss" scoped>
+.logo {
+  padding: 20px;
+}
+</style>
